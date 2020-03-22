@@ -1,4 +1,5 @@
 from peewee import *
+import random
 
 db = PostgresqlDatabase('trivia', user='postgres',
                         password='', host='localhost', port=5432)
@@ -12,9 +13,9 @@ class BaseModel(Model):
 class Trivia(BaseModel):
     question = CharField()
     option_1 = CharField()
-    option_1 = CharField()
+    option_2 = CharField()
     option_3 = CharField()
-    answer = IntegerField()
+    answer = CharField()
     category = CharField()
     correct_count = IntegerField()
 
@@ -467,7 +468,7 @@ trivia_data = [
         "correct_count": 0
     },
     {
-        "question": "Which neighborhood, dating back to 1751, is the oldest part of the city?",
+        "question": "Which neighborhood, established in 1751, is the oldest part of the city?",
         "option_1": "1) Adams Morgan",
         "option_2": "2) Georgetown",
         "option_3": "3) Foggy Bottom",
@@ -477,8 +478,33 @@ trivia_data = [
     }
 ]
 
-
+random.shuffle(trivia_data)
 for triv in trivia_data:
     triv = Trivia(question=triv['question'], option_1=triv['option_1'], option_2=triv['option_2'],
                   option_3=triv['option_3'], answer=triv['answer'], category=triv['category'], correct_count=0)
     triv.save()
+
+
+def triviaGame():
+    correct = 0
+    incorrect = 0
+    category_select = input(
+        "Select 1 for D.C. sports trivia or 2 for general DC trivia.  ")
+    if (category_select == "1"):
+        trivia_list = Trivia.select().where(Trivia.category == 'sports')
+    elif (category_select == "2"):
+        trivia_list = Trivia.select().where(Trivia.category == 'general')
+    for q in trivia_list:
+        print(f'{q.question} \n   {q.option_1} \n   {q.option_2} \n   {q.option_3} \n')
+        user_guess = input("Choose option 1, 2 or 3.  ")
+        if (user_guess == q.answer):
+            correct = correct + 1
+            print(
+                f'Correct! The answer was #{q.answer}. Your current score is {correct}/{correct + incorrect} \n')
+        elif (user_guess != q.answer):
+            incorrect = incorrect + 1
+            print(
+                f'So close! The correct answer was #{q.answer}. Your current score is {correct}/{correct + incorrect} \n')
+
+
+triviaGame()
