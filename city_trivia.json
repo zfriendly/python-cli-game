@@ -1,0 +1,142 @@
+(city_data = [
+  {
+    "question": "What is the population of Washington, DC as of 2019?",
+    "option_1": "1) 633,427",
+    "option_2": "2) 711,571",
+    "option_3": "3) 800, 331",
+    "answer": 2
+  },
+  {
+    "question": "How many senators does Washington, DC.have?",
+    "option_1": "1) One",
+    "option_2": "2) Two",
+    "option_3": "3) Zero",
+    "answer": 3
+  },
+  {
+    "question": "What two states border Washington, DC?",
+    "option_1": "1) VA & DE",
+    "option_2": "2) MD & WV",
+    "option_3": "3) VA & MD",
+    "answer": 3
+  },
+  {
+    "question": "What is the street address of the White House?",
+    "option_1": "1) 1600 Pennsylvania Ave.",
+    "option_2": "2) 123 Capital St.",
+    "option_3": "3) 1000 North Capital St.",
+    "answer": 1
+  },
+  {
+    "question": "In which war were the Capital, Treasure, and White House burned down?",
+    "option_1": "1) Civil War",
+    "option_2": "2) War of 1812",
+    "option_3": "3) World War I",
+    "answer": 2
+  },
+  {
+    "question": "Which educational foundation maintains most museums in DC and keeps them free?",
+    "option_1": "1) Peabody",
+    "option_2": "2) Macarthur",
+    "option_3": "3) Smithsonian",
+    "answer": 3
+  },
+  {
+    "question": "The ______ Center for Performing Arts is named after which former President?",
+    "option_1": "1) Kennedy",
+    "option_2": "2) Adams",
+    "option_3": "3) Eisenhower",
+    "answer": 1
+  },
+  {
+    "question": "Which university in Washington shares a name with the neighborhood in which it is located?",
+    "option_1": "1) Howard University",
+    "option_2": "2) Gallaudet University",
+    "option_3": "3) Georgetown University",
+    "answer": 3
+  },
+  {
+    "question": "The National ___ houses many of DC's museums and institutions.",
+    "option_1": "1) Park",
+    "option_2": "2) Mall",
+    "option_3": "3) Monument",
+    "answer": 2
+  },
+  {
+    "question": "How tall is the Washington Monument?",
+    "option_1": "1) 800 ft.",
+    "option_2": "2) 555 ft.",
+    "option_3": "3) 586 ft.",
+    "answer": 2
+  },
+  {
+    "question": "Who was the first president to live in the White House?",
+    "option_1": "1) John Adams",
+    "option_2": "2) George Washington",
+    "option_3": "3) John F. Kennedy",
+    "answer": 1
+  },
+  {
+    "question": "The streets in D.C. that run diagonally are named after ____.",
+    "option_1": "1) Numbers",
+    "option_2": "2) Words",
+    "option_3": "3) States",
+    "answer": 3
+  },
+  {
+    "question": "Which genre of music (combining hip-hop and live band music) originated in DC?",
+    "option_1": "1) Slam Poetry",
+    "option_2": "2) Go-Go",
+    "option_3": "3) Emo",
+    "answer": 2
+  },
+  {
+    "question": "Which \"letter\" street is missing in Washington, DC?",
+    "option_1": "1) K",
+    "option_2": "2) M",
+    "option_3": "3) J",
+    "answer": 3
+  },
+  {
+    "question": "Which famous sci-fi movie character is featured as a gargoyle on the National Cathedral?",
+    "option_1": "1) Capt. Picard",
+    "option_2": "2) Darth Vader",
+    "option_3": "3) Frodo Baggins",
+    "answer": 2
+  },
+  {
+    "question": "What institution in the DC area has 17 miles of corridors?",
+    "option_1": "1) Capital Building",
+    "option_2": "2) National Archives",
+    "option_3": "3) Pentagon",
+    "answer": 3
+  },
+  {
+    "question": "What DC institution houses the United States Constitution & Declaration of Independence?",
+    "option_1": "1) National Archives",
+    "option_2": "2) Library of Congress",
+    "option_3": "1) White House",
+    "answer": 1
+  },
+  {
+    "question": "How many bathrooms are in the White House?",
+    "option_1": "1) 35",
+    "option_2": "2) 10",
+    "option_3": "3) 55",
+    "answer": 1
+  },
+  {
+    "question": "The Reflecting Pool sits between the Washington Monument and The ____.",
+    "option_1": "1) White House",
+    "option_2": "2) Vietnam Memorial",
+    "option_3": "3) Lincoln Memorial",
+    "answer": 3
+  },
+  {
+    "question": "Which neighborhood, dating back to 1751, is the oldest part of the city?",
+    "option_1": "1) Adams Morgan",
+    "option_2": "2) Georgetown",
+    "option_3": "3) Foggy Bottom",
+    "answer": 2
+  }
+])

@@ -1,0 +1,212 @@
+[
+  {
+    "question": "Which team became the Washington Nationals?",
+    "option_1": "1) Montreal Expos",
+    "option_2": "2) Minnesota Twins",
+    "option_3": "3) Milwaukee Braves",
+    "answer": 1
+  },
+  {
+    "question": "Who was the first player to throw a pitch as a National?",
+    "option_1": "1) Mike Stanton",
+    "option_2": "2) Max Scherzer",
+    "option_3": "3) Livan Hernandez",
+    "answer": 3
+  },
+  {
+    "question": "Which Nationals starter was NOT a first-round Draft choice?",
+    "option_1": "1) Gio Gonzalez",
+    "option_2": "2) Stephen Strasburg",
+    "option_3": "3) Jordan Zimmermann",
+    "answer": 3
+  },
+  {
+    "question": "Who was the youngest player to win the NL Most Valuable Player award?",
+    "option_1": "1) Juan Soto",
+    "option_2": "2) Bryce Harper",
+    "option_3": "3) Trea Turner",
+    "answer": 2
+  },
+  {
+    "question": "Which team did the Nationals NOT face in the 2019 playoffs?",
+    "option_1": "1) Los Angeles Dodgers",
+    "option_2": "2) Atlanta Braves",
+    "option_3": "3) Houston Astros",
+    "answer": 2
+  },
+  {
+    "question": "Which pitcher threw two no-hitters in 2015?",
+    "option_1": "1) Max Scherzer",
+    "option_2": "2) Gio Gonzalez",
+    "option_3": "3) Stephen Strasburg",
+    "answer": 1
+  },
+  {
+    "question": "What year did the Nationals win their first division title?",
+    "option_1": "1) 2011",
+    "option_2": "2) 2008",
+    "option_3": "3) 2012",
+    "answer": 3
+  },
+  {
+    "question": "Who pitched the first no-hitter in Washington Nationals history?",
+    "option_1": "1) Patrick Corbin",
+    "option_2": "2) Livan Hernandez",
+    "option_3": "3) Jordan Zimmermann",
+    "answer": 3
+  },
+  {
+    "question": "Who was the Nationals' very first draft pick?",
+    "option_1": "1) Stephen Strasburg",
+    "option_2": "2) Ryan Zimmerman",
+    "option_3": "3) Terrmel Sledge",
+    "answer": 2
+  },
+  {
+    "question": "How many batters did Stephen Strasburg strike out in his major league debut?",
+    "option_1": "1) 14",
+    "option_2": "2) 17",
+    "option_3": "3) 9",
+    "answer": 1
+  },
+  {
+    "question": "Who threw the ceremonial first pitch at the grand opening of Nationals Park?",
+    "option_1": "1) Barack Obama",
+    "option_2": "2) Jose Andres",
+    "option_3": "3) George W. Bush",
+    "answer": 3
+  },
+  {
+    "question": "In what neighborhood is Nationals Park located?",
+    "option_1": "1) Waterfront",
+    "option_2": "2) Navy Yard",
+    "option_3": "3) Bloomingdale",
+    "answer": 2
+  },
+  {
+    "question": "Who was the World Series MVP in 2019?",
+    "option_1": "1) Stephen Strasburg",
+    "option_2": "2) Anthony Rendon",
+    "option_3": "3) Gerrit Cole",
+    "answer": 1
+  },
+  {
+    "question": "Which Nationals' pitcher has the most wins in a season?",
+    "option_1": "1) Max Scherzer",
+    "option_2": "2) Jordan Zimmermann",
+    "option_3": "3) Gio Gonzalez",
+    "answer": 3
+  },
+  {
+    "question": "What season was the Capitals' first in the NHL?",
+    "option_1": "1) 1972-73",
+    "option_2": "2) 1980-81",
+    "option_3": "3) 1974-75",
+    "answer": 3
+  },
+  {
+    "question": "Who is the Capitals' all-time leader in Goals?",
+    "option_1": "1) Alex Ovechkin",
+    "option_2": "2) Peter Bondra",
+    "option_3": "3) Olaf Kolzig",
+    "answer": 1
+  },
+  {
+    "question": "How many Super Bowls have the Washington Redskins won?",
+    "option_1": "1) Five",
+    "option_2": "2) Two",
+    "option_3": "3) Three",
+    "answer": 3
+  },
+  {
+    "question": "Who is the Redskins all-time leading rusher?",
+    "option_1": "1) Clinton Portis",
+    "option_2": "2) John Riggins",
+    "option_3": "3) Stephen Davis",
+    "answer": 2
+  },
+  {
+    "question": "Which Redskins' great passed away tragically in 2007?",
+    "option_1": "1) Sean Taylor",
+    "option_2": "2) Kirk Cousins",
+    "option_3": "3) Joe Gibbs",
+    "answer": 1
+  },
+  {
+    "question": "Who did the Capitals beat in the Stanley Cups Finals in 2017-18?",
+    "option_1": "1) Las Vegas Golden Knights",
+    "option_2": "2) St. Louis Blues",
+    "option_3": "3) Pittsburgh Penguins",
+    "answer": 1
+  },
+  {
+    "question": "What was the Washington Wizards' previous name?",
+    "option_1": "1) Warthogs",
+    "option_2": "2) Bullets",
+    "option_3": "3) Kings",
+    "answer": 2
+  },
+  {
+    "question": "Which NBA Hall-of-Famer ended his career with the Wizards?",
+    "option_1": "1) Karl Malone",
+    "option_2": "2) Vince Carter",
+    "option_3": "3) Michael Jordan",
+    "answer": 3
+  },
+  {
+    "question": "Which current Wizards player was drafted #1 overall in 2010?",
+    "option_1": "1) Bradley Beal",
+    "option_2": "2) John Wall",
+    "option_3": "3) Thomas Bryant",
+    "answer": 2
+  },
+  {
+    "question": "In which league does D.C. United play?",
+    "option_1": "1) NFL",
+    "option_2": "2) MLS",
+    "option_3": "3) NBA",
+    "answer": 2
+  },
+  {
+    "question": "The Capital City Go-Go are an affiliate of which D.C. sports team?",
+    "option_1": "1) Wizards",
+    "option_2": "2) Capitals",
+    "option_3": "3) Nationals",
+    "answer": 1
+  },
+  {
+    "question": "Ted Leonsis owns two D.C. sports franchises. Which two does he own?",
+    "option_1": "1) Wizards & Redskins",
+    "option_2": "2) Redskins & Nationals",
+    "option_3": "3) Capitals and Wizards",
+    "answer": 3
+  },
+  {
+    "question": "Which former Redskins QB was the first black QB to win a Super Bowl?",
+    "option_1": "1) Donovan McNabb",
+    "option_2": "2) Doug Williams",
+    "option_3": "3) Robert Griffin III",
+    "answer": 2
+  },
+  {
+    "question": "Three of the four major franchises in D.C. use the same color scheme (Red, White and Blue). Which team does not?",
+    "option_1": "1) Redskins",
+    "option_2": "2) Wizards",
+    "option_3": "3) Nationals",
+    "answer": 1
+  },
+  {
+    "question": "What was the name of the Washington baseball franchise before the Nationals?",
+    "option_1": "1) Filibusters",
+    "option_2": "2) Congressmen",
+    "option_3": "3) Senators",
+    "answer": 3
+  },
+  {
+    "question": "Ranking second all time in NHL history, how many 40-goal seasons does Alex Ovechkin have?",
+    "option_1": "1) 11",
+    "option_2": "2) 8",
+    "option_3": "13) 12",
+    "answer": 1
+  }
+]
