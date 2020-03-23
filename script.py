@@ -31,10 +31,68 @@ def prRed(skk): print("\033[91m {}\033[00m" .format(skk))
 def prGreen(skk): print("\033[92m {}\033[00m" .format(skk))
 
 
+def inGreen(skk): input("\033[92m {}\033[00m" .format(skk))
+
+
 def prYellow(skk): print("\033[93m {}\033[00m" .format(skk))
 
 
 def prCyan(skk): print("\033[96m {}\033[00m" .format(skk))
+
+
+def inCyan(skk): input("\033[96m {}\033[00m" .format(skk))
+
+
+def asciiDC():
+    prCyan('''\n
+       _      __   ____   __   _____  ____    __  ___   ____     
+      | | /| / /  / __/  / /  / ___/ / __ \  /  |/  /  / __/     
+      | |/ |/ /  / _/   / /__/ /__  / /_/ / / /|_/ /  / _/       
+      |__/|__/  /___/  /____/\___/  \____/ /_/  /_/  /___/       
+                                                                 
+                          ______  ____                           
+                         /_  __/ / __ \                          
+                          / /   / /_/ /                          
+                         /_/    \____/                           
+                                                                 
+   ___   _____      ______   ___    ____  _   __   ____   ___    
+  / _ \ / ___/     /_  __/  / _ \  /  _/ | | / /  /  _/  / _ |   
+ / // // /__        / /    / , _/ _/ /   | |/ /  _/ /   / __ |   
+/____/ \___/       /_/    /_/|_| /___/   |___/  /___/  /_/ |_|                                                                                                                                            
+\n
+''')
+
+
+def asciiCorrect():
+    prGreen('''
+ __   __   __   __   ___  __  ___
+/  ` /  \ |__) |__) |__  /  `  |
+\__, \__/ |  \ |  \ |___ \__,  |
+
+''')
+
+
+def asciiWrong():
+    prRed('''
+      __   __        __
+|  | |__) /  \ |\ | / _`
+|/\| |  \ \__/ | \| \__>
+
+''')
+
+
+def asciiEndgame():
+    prCyan('''
+  _____   ___    __  ___   ____
+ / ___/  / _ |  /  |/  /  / __/
+/ (_ /  / __ | / /|_/ /  / _/  
+\___/  /_/ |_|/_/  /_/  /___/  
+                               
+  ____   _   __   ____   ___   
+ / __ \ | | / /  / __/  / _ \  
+/ /_/ / | |/ /  / _/   / , _/  
+\____/  |___/  /___/  /_/|_|   
+''')
 
 
 trivia_data = [
@@ -509,20 +567,46 @@ def triviaGame():
     for q in trivia_list:
         prYellow(
             f'{q.question} \n   {q.option_1} \n   {q.option_2} \n   {q.option_3} \n')
-        user_guess = input("Choose option 1, 2 or 3.  ")
+        user_guess = input("Choose option 1, 2 or 3. --> ")
         if (user_guess == q.answer_value):
             correct = correct + 1
+            asciiCorrect()
             prGreen(
-                f'Correct! The answer was {q.answer}. Your current score is {correct}/{correct + incorrect} \n')
+                f'The answer was {q.answer}. Your current score is {correct}/{correct + incorrect} \n')
         elif (user_guess != q.answer_value):
             incorrect = incorrect + 1
+            asciiWrong()
             prRed(
-                f'So close! The correct answer was {q.answer}. Your current score is {correct}/{correct + incorrect} \n')
+                f'So close...the correct answer was {q.answer}. Your current score is {correct}/{correct + incorrect} \n')
     if q != len(trivia_list) - 1:
+        asciiEndgame()
         endgame = input(
             f'Game over! Your final score was {correct} out of {correct + incorrect}. \nPlay again? y/n ')
-        if endgame == "y":
+        if endgame == "y" or "Y":
             triviaGame()
 
 
-triviaGame()
+asciiDC()
+start = input(
+    'To add a question, press 1. \nTo play the trivia game, press 2 -->')
+if(start == "1"):
+    question = input(
+        "Please enter your question! eg. Who Designed Washington, DC? --> ")
+    option_1 = input(
+        "Enter in the first option. eg. 1) Pierre L'Enfant --> ")
+    option_2 = input(
+        "Enter in the second option. eg. 2) George Washington --> ")
+    option_3 = input("Enter in the third option. eg. 3) Barack Obama --> ")
+    answer_value = input(
+        "Enter in the correct answer value. In this case above, it would be 1 --> ")
+    answer = input(
+        "Enter in the correct answer. In this case above, it would be 1) Pierre L'Enfant --> ")
+    category = input("Enter in the category, either sports or general --> ")
+    new_q = Trivia(question=question, option_1=option_1, option_2=option_2,
+                   option_3=option_3, answer_value=answer_value, answer=answer, category=category)
+    new_q.save()
+    prGreen(
+        f'Thanks for entering a new question. See it below:\nQuestion: {new_q.question}\nOption 1: {new_q.option_1}\nOption 2: {new_q.option_2}\nOption 3: {new_q.option_3}\nAnswer Value: {new_q.answer_value}\nAnswer: {new_q.answer}\nCategory: {new_q.category}')
+    prYellow("Now we can play the game!")
+if(start == "2"):
+    triviaGame()
