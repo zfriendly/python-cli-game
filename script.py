@@ -28,7 +28,7 @@ db.create_tables([Trivia])
 
 trivia_data = [
     {
-        "question": "Which team became the Washington Nationals?",
+        "question": "In 2005, which MLB relocated to become the Washington Nationals?",
         "option_1": "1) Montreal Expos",
         "option_2": "2) Minnesota Twins",
         "option_3": "3) Milwaukee Braves",
@@ -253,7 +253,7 @@ trivia_data = [
         "category": "general"
     },
     {
-        "question": "In which war were the Capital, Treasure, and White House burned down?",
+        "question": "In which war were the Capital, Treasury, and White House burned down?",
         "option_1": "1) Civil War",
         "option_2": "2) War of 1812",
         "option_3": "3) World War I",
@@ -298,7 +298,7 @@ trivia_data = [
         "category": "general"
     },
     {
-        "question": "Which neighborhood, dating back to 1751, is the oldest part of the city?",
+        "question": "Which neighborhood, established in 1751, is the oldest part of the city?",
         "option_1": "1) Adams Morgan",
         "option_2": "2) Georgetown",
         "option_3": "3) Foggy Bottom",
@@ -416,11 +416,11 @@ trivia_data = [
     },
     {
         "question": "What two states border Washington, DC?",
-        "option_1": "1) VA & DE",
-        "option_2": "2) MD & WV",
-        "option_3": "3) VA & MD",
+        "option_1": "1) Virginia and Delaware",
+        "option_2": "2) Maryland and West Virginia",
+        "option_3": "3) Virginia and Maryland",
         "answer_value": 3,
-        "answer": "3) VA & MD",
+        "answer": "3) Virginia and Maryland",
         "category": "general"
     },
     {
@@ -443,8 +443,8 @@ trivia_data = [
     },
     {
         "question": "The streets in D.C. that run diagonally are named after ____.",
-        "option_1": "1) Numbers",
-        "option_2": "2) Words",
+        "option_1": "1) Presidents",
+        "option_2": "2) Flowers",
         "option_3": "3) States",
         "answer_value": 3,
         "answer": "3) States",
@@ -469,12 +469,12 @@ trivia_data = [
         "category": "general"
     },
     {
-        "question": "The Reflecting Pool sits between the Washington Monument and The ____.",
-        "option_1": "1) White House",
-        "option_2": "2) Vietnam Memorial",
-        "option_3": "3) Lincoln Memorial",
+        "question": "The Reflecting Pool sits between the Washington Monument and The _____ Memorial.",
+        "option_1": "1) Roosevelt",
+        "option_2": "2) Vietnam",
+        "option_3": "3) Lincoln",
         "answer_value": 3,
-        "answer": "3) Lincoln Memorial",
+        "answer": "3) Lincoln",
         "category": "general"
     }
 ]
